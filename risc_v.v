@@ -263,6 +263,10 @@ module instructionMemory(address, readData);
    input [5:0] address;
    output [31:0] readData;
    reg [31:0] RAM[0:63];
-   initial $readmemh("sarah2.mem", RAM);         // here reads the data from factorial.dat file
+	initial $readmemh("sarah2.dat", RAM);         // here reads the data from sarah2.dat file
    assign readData = RAM[address];
 endmodule
+
+// Note that the code u want to check should be converted to hexadecimal {each statement convert to hexadeciaml} and
+// placed in "<file_name>.dat" so that the reading of instructions happens through this file 
+//
