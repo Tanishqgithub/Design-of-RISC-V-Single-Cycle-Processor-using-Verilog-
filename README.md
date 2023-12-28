@@ -15,10 +15,16 @@ The below riscv_report.pdf contains all the necessary codes and the required exp
 The report also Contains Simualtion Results and explanation , Code Coverage Report, Synthesis Report {power,area and timing reports} and Physical Design for final riscv module.
 [riscv_report.pdf](https://github.com/Tanishqgithub/Design-of-RISC-V-Single-Cycle-Processor-using-Verilog-/files/13783600/riscv_report.pdf)
 
+
+
 Note the Tools Used :
-Simulation and Code Coverage: Cadence Incisive Simulator
-Synthesis : Cadence Genus
+
+Simulation and Code Coverage: Cadence Incisive Simulator;    
+
+Synthesis : Cadence Genus;
+
 Physical Design : Cadence Innovus 
+
 
 
 Also Use the below slides riscv_slides.pdf created for above report for presentation .
